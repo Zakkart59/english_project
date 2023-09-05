@@ -339,7 +339,7 @@ footer p {
   margin: 0;
 }
 
-/* Estilos para telas menores que 768px */
+/* Style for screens smaller than 768px */
 @media screen and (max-width: 768px) {
   .navbar {
     height: 80px;
@@ -430,7 +430,7 @@ footer p {
   }
 }
 
-/* Estilos para telas menores que 576px */
+/* Style for screens smaller than 576px */
 @media screen and (max-width: 576px) {
   .header-logo {
     margin-left: 8px;
@@ -452,6 +452,7 @@ footer p {
 
   .text-box h1 {
     font-size: 30px;
+    display none
   }
 
   .text-box p {
