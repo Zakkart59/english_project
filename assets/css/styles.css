@@ -452,7 +452,7 @@ footer p {
 
   .text-box h1 {
     font-size: 30px;
-    display none
+    display: none;
   }
 
   .text-box p {
@@ -498,4 +498,3 @@ footer p {
     font-size: 20px;
   }
 }
-
