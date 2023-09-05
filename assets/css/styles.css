@@ -338,3 +338,163 @@ footer p {
   background-color: #1f2937;
   margin: 0;
 }
+
+/* Estilos para telas menores que 768px */
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
+
+  .header-logo {
+    height: 50px;
+    margin-left: 16px;
+  }
+
+  .navbar h1 {
+    margin-left: 12px;
+    font-size: 24px;
+  }
+
+  .nav-links {
+    margin-right: 12px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .media-box {
+    flex-direction: column;
+    align-items: center;
+    margin: 64px 24px 48px;
+  }
+
+  .text-box {
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-box h1 {
+    font-size: 36px;
+  }
+
+  .text-box p {
+    font-size: 16px;
+  }
+
+  .main-img {
+    max-width: 150px;
+  }
+
+  .container {
+    margin-left: 0;
+  }
+
+  .item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .title {
+    padding-top: 64px;
+    font-size: 24px;
+  }
+
+  #packages-button {
+    margin-left: 0;
+    font-size: 20px;
+  }
+
+  .contact-section h1 {
+    padding: 24px;
+    padding-top: 64px;
+    font-size: 24px;
+  }
+
+  .signup-box {
+    flex-direction: column;
+    padding: 24px;
+    margin: 64px 0;
+  }
+
+  .email-text h2 {
+    font-size: 24px;
+  }
+
+  .email-text p {
+    padding-right: 0;
+    text-align: center;
+  }
+}
+
+/* Estilos para telas menores que 576px */
+@media screen and (max-width: 576px) {
+  .header-logo {
+    margin-left: 8px;
+  }
+
+  .navbar h1 {
+    margin-left: 8px;
+    font-size: 20px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  .media-box {
+    margin: 48px 16px 32px;
+  }
+
+  .text-box h1 {
+    font-size: 30px;
+  }
+
+  .text-box p {
+    font-size: 14px;
+  }
+
+  .main-img {
+    max-width: 120px;
+  }
+
+  .container {
+    padding: 0 12px 80px 12px;
+    margin-right: 0;
+  }
+
+  .item {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .title {
+    padding-top: 48px;
+    font-size: 20px;
+  }
+
+  #packages-button {
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+  .contact-section h1 {
+    padding: 12px;
+    padding-top: 48px;
+    font-size: 20px;
+  }
+
+  .signup-box {
+    margin: 48px 0;
+    padding: 16px;
+  }
+
+  .email-text h2 {
+    font-size: 20px;
+  }
+}
+
